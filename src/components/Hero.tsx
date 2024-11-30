@@ -7,9 +7,9 @@ const Hero = () => {
     return (
         <div id="hero" className="min-h-screen bg-black">
             <Navbar />
-            <div className="container grid lg:grid-cols-2 h-[calc(100vh-60px)] flex items-center justify-center mt-25">
+            <div className="container grid lg:grid-cols-2 h-[calc(100vh-60px)] flex items-center justify-between mt-25">
                 {/* Profile Picture */}
-                <div className="w-95 h-95 lg:w-96 lg:h-96 ml-30 pl-30 rounded-full overflow-hidden border-4 border-black 
+                <div className="w-95 h-95 lg:w-96 lg:h-96 ml-40 pl-30 rounded-full overflow-hidden border-4 border-black 
                 style={{backgroundSize:='35%'}}">
                     <img 
                         src="/profile.PNG" 
